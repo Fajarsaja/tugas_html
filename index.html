@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tugas Html</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>report nilai siswa</h3>
+      <table border="2">
+        <tr class="table-head">
+          <th rowspan="2">no</th>
+          <th rowspan="2">nama</th>
+          <th colspan="4">nilai</th>
+          <th rowspan="2">nilai rata-rata</th>
+        </tr>
+
+        <tr class="table-head">
+          <th>bahasa inggris</th>
+          <th>matematika</th>
+          <th>sains</th>
+          <th>geografi</th>
+        </tr>
+
+        <tr>
+          <th>1</th>
+          <th>putri</th>
+          <th>78</th>
+          <th>78</th>
+          <th>78</th>
+          <th>78</th>
+          <th>78</th>
+        </tr>
+        <tr>
+          <th>2</th>
+          <th>aji</th>
+          <th>48</th>
+          <th>48</th>
+          <th>48</th>
+          <th>48</th>
+          <th>48</th>
+        </tr>
+        <tr>
+          <th>3</th>
+          <th>rara</th>
+          <th>88</th>
+          <th>88</th>
+          <th>88</th>
+          <th>88</th>
+          <th>88</th>
+        </tr>
+        <tr>
+          <th>4</th>
+          <th>hendra</th>
+          <th>88</th>
+          <th>88</th>
+          <th>88</th>
+          <th>88</th>
+          <th>88</th>
+        </tr>
+        <tr>
+          <th>5</th>
+          <th>jaja</th>
+          <th>33</th>
+          <th>44</th>
+          <th>22</th>
+          <th>99</th>
+          <th>49,5</th>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <!-- <button class="btn">
+        <a href="informasi_siswa.html">lihat informasi siswa</a>
+      </button> -->
+
+      <button onclick="move1()" id="btn">lihat informasi siswa</button>
+    </div>
+    <script src="page.js"></script>
+  </body>
 </html>

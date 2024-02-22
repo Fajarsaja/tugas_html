@@ -1,0 +1,44 @@
+*, html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;   
+    
+}
+
+h3{
+    padding: 24px;
+}
+
+table{
+    border: 1;
+    width: 80%;
+    
+}
+
+.table-head{
+    background-color: lightseagreen;
+}
+
+
+#btn{
+    background-color: aquamarine;
+    padding: 12px;
+    margin-left: 10%;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.table-siswa{
+    width: 60%;
+}
